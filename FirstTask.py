@@ -1,8 +1,8 @@
 from pip._vendor.msgpack.fallback import xrange
 
 
-def kseroks(lineika):
-    print(lineika)
+def outputer(txt):
+    print(txt)
 
 
 def random_list():
@@ -14,7 +14,7 @@ def random_list():
 
     average = list_sum / len(list)
 
-    kseroks('{} {} {}'.format(list, list_sum, average))
+    outputer('{} {} {}'.format(list, list_sum, average))
 
 
 def main():
