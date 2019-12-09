@@ -38,7 +38,7 @@ class WiredPrinter(IPrinterWithoutInputInfo):
         pass
 
 
-class WirelessPrinter(IPrinterWithoutInputInfo):
+class WirelessPrinter(WiredPrinter):
     def Print(self):
         pass
 
