@@ -33,7 +33,7 @@ class FilePrinter(IPrinterWithoutInputInfo):
         pass
 
 
-class WiredPrinter(IPrinter):
+class WiredPrinter(IPrinterWithoutInputInfo):
     def Print(self):
         pass
 
