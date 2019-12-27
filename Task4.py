@@ -1,0 +1,1 @@
+def Wraps(RL):def Wrapper(YT):YT.__name__ = RL.__name__YT.__doc__ = RL.__doc__return YTreturn Wrapperdef Wrapper(wrap):@Wraps(wrap)def wrapper(a):wrap(a)    return wrapper@Wrapperdef Lab3(a):passprint(Lab3.__name__)print(Lab3.__doc__)
